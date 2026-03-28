@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+torchaudio
+torch
+git+https://github.com/facebookresearch/seamless_communication.git
+langdetect
+openai-whisper
+faster-whisper
