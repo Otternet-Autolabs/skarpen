@@ -14,7 +14,9 @@ Built on [Meta SeamlessM4T v2](https://github.com/facebookresearch/seamless_comm
 4. Each listener hears translated audio in near real-time
 5. Transcripts are shown in the UI
 
-**Megaphone mode** — disables audio output, sends text-only transcripts. Useful when speakers share a physical space and only remote listeners need translation.
+**Megaphone mode** — streams raw audio live to all listeners without waiting for translation, then delivers text-only transcripts at the end (no translated audio). Useful when low latency matters more than translation, or when the speaker's language is understood by most listeners. Enable with the 📢 button in the header — active state is highlighted.
+
+**Themes** — toggle between two themes with the 🎨 button in the header: a clean light theme and a green-on-black radar/terminal theme.
 
 ---
 
