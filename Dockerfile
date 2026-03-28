@@ -11,4 +11,4 @@ RUN python -c "from seamless_communication.inference import Translator; import t
 COPY backend/ backend/
 COPY frontend/ frontend/
 EXPOSE 8003
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8003"]
+CMD ["uvicorn", "backend.main:x3b", "--host", "0.0.0.0", "--port", "8003"]
